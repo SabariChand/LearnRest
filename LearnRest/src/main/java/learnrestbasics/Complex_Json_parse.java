@@ -30,7 +30,7 @@ public class Complex_Json_parse {
 
 			String courseprice =js.get("courses["+i+"].price").toString();
 			
-			System.out.println("The couese prcices is6 :"+courseprice);
+			System.out.println("The couese prcices is :"+courseprice);
 			
 		}
 		

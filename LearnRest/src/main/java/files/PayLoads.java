@@ -29,7 +29,7 @@ public class PayLoads
  {
 	return "{\r\n"
 			+ "\"dashboard\": {\r\n"
-			+ "\"purchaseAmount\": 910,\r\n"
+			+ "\"purchaseAmount\": 1095,\r\n"
 			+ "\"website\": \"rahulshettyacademy.com\"\r\n"
 			+ "},\r\n"
 			+ "\"courses\": [\r\n"
@@ -57,5 +57,18 @@ public class PayLoads
 			+ "}\r\n"
 			+ "";
 	 
+ }
+ 
+ public static String AddBook()
+ {
+	 String payload ="{\r\n"
+	 		+ "\r\n"
+	 		+ "\"name\":\"Learn Appium Automation with Java\",\r\n"
+	 		+ "\"isbn\":\"bcd\",\r\n"
+	 		+ "\"aisle\":\"227\",\r\n"
+	 		+ "\"author\":\"John foe\"\r\n"
+	 		+ "}\r\n"
+	 		+ "";
+	 return payload;
  }
 }
